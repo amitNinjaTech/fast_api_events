@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Customer Page</h2>
+<ul>
+    {% for api in apis %}
+    <li>
+        {{ api.name }} - <a href="/customer/download/{{ api.id }}">Download</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
