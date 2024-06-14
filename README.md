@@ -1,4 +1,4 @@
-### A API Sharing Platform with direct integration of events on backend.
+### An API Sharing Platform with direct integration of events on backend.
 
 #### 1. What We Did
 We set up a microservices architecture using FastAPI for two services: `api_events_service` and `api_marketplace`. The `api_events_service` receives POST requests to log events and provides GET requests to retrieve these events. The `api_marketplace` acts as a frontend that lists these events on its home page.
